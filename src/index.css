@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.mycontainer{
+  @apply container md:px-40 md:py-3  
+}
+
+/* Custom Scrollbar for Light Green Theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px; /* For horizontal scroll */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eafaf1; /* Light green background */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a7f4b4; /* Tailwind Green-400 */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #059669; /* Tailwind Green-600 */
+}
